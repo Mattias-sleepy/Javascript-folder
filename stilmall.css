@@ -731,11 +731,7 @@
 
  /*----Login page----*/
 
- .logo_image {
-     border: solid;
-     border-width: 2px;
-     border-color: green;
- }
+
 
  .login_page_content {
      display: flex;
