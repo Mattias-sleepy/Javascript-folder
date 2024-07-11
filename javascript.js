@@ -40,11 +40,17 @@ document.addEventListener("DOMContentLoaded", () => {
     )
 
     $(".google_button").on("click", function () {
-        $(".google_button").animate({
-            opacity: 0.5
-        }, 1000, function () {
-
-        });
+        $(".google_button").animate(
+            { opacity: 0.5 },
+            1000,
+            "swing",
+            function () {
+                $(".google_button").animate(
+                    { opacity: 1 },
+                    1000
+                )
+            }
+        );
     });
 
 
