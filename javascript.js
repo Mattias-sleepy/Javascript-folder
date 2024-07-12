@@ -14,8 +14,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     })
 
-
-
     usernameText.addEventListener("change", () => {
         username.style.borderColor = "red";
 
@@ -52,8 +50,4 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         );
     });
-
-
-
-
 })   
